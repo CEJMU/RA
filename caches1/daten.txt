@@ -1,0 +1,10 @@
+W/H:
+R1miss: 0.111048
+R2miss: 0.999996 
+N1miss: 786699
+N2miss: 786976
+H/W:
+R1miss: 0.006939
+R2miss: 1 
+N1miss: 49152
+N2miss: 49155

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <m5ops.h>
+#include <gem5/m5ops.h>
 
 #define HEIGHT 1024
 #define WIDTH  768

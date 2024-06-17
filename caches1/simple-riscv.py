@@ -41,10 +41,10 @@ system.clk_domain.voltage_domain = VoltageDomain()
 
 system.mem_mode = "timing"
 system.mem_ranges = [AddrRange("512MB")]
-system.cpu = RiscvO3CPU() #Out of order CPU
+#system.cpu = RiscvO3CPU() #Out of order CPU
+system.cpu = RiscvTimingSimpleCPU() #Out of order CPU
 
-
-system.cpu.numROBEntries = 16 #ROB
+#system.cpu.numROBEntries = 16 #ROB
 
 #Creating memory bus
 system.membus = SystemXBar()
